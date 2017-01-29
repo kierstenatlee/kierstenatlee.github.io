@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #c4ff4d;
+    font-weight: bold;
+  }
+  h1 {background-color: white;
+}
+h1 {
+  font: 55px georgia, sans-serif;
+  color: teal;
+  font-family: 'Architects Daughter', 'cursive';
+}
+li{
+  font-family: 'architects daughter','cursive';
+  color: red;
+  text-align: center;
+  width: 33%;
+  font-size: 24px;
+  padding: 10px 20px
+  float: right;
+  border: 2px solid teal;
+  list-style-type: none;
+}
+
+#lion{
+  height: 293px;
+  width: auto;
+  float: right;
+
+}
+
+
+#welcome{
+  color: blue;
+}
+.animal{
+  color: red;
+}
+.fish{
+  color: orange;
+}
+.bird{
+  color: blue;
+}
+ #sloth{
+   color: gray;
+ }
+ #sheep{
+   color: steelblue;
+ }
+ #salmon{
+   color: salmon;
+ }
+a::first-letter {
+  font-size: 24px;
+}
+a{
+  display: block;
+  color: blue;
+}
+.mammal{
+  color: purple;
+}
+.mammal::first-letter{
+  font-size:35px;
+  color: red;
+}
+.animal:hover{background-color:white;}
